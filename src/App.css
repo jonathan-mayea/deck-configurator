@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Oxanium", "Roboto", sans-serif;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.configurator {
+  position: fixed;
+  right: -150px;
+  width: 320px;
+  bottom: 25vh;
+  color: white;
+  padding: 16px;
+}
+
+.configurator__section__title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.configurator__section__values {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.item__label {
+  font-size: 12px;
+  color: grey;
+}
+
+.item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
